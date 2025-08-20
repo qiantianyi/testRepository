@@ -1,0 +1,20 @@
+!SESSION 2025-08-20 17:17:59.044 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  ;-consoleLog
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 ;-consoleLog
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-20 17:18:07.215
+!MESSAGE 警告: 没有设置HOME环境变量. 下面的目录将用于存储Git
+用户全局配置并定义存储库的默认位置: 'C:\Users\tim.qian'. 如果是
+不正确，请设置HOME环境变量并重新启动Eclipse. 否则Windows下Git和
+EGit可能会有不同的行为，因为它们看到不同的配置选项.
+这个警告可以在“团队” > Git >“确认和警告“首选项页上关闭.
+
+!ENTRY org.eclipse.cdt.ui 2 0 2025-08-20 17:18:10.065
+!MESSAGE Default project not found in New C/C++ Project Wizard
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-08-20 17:18:47.856
+!MESSAGE Indexed 'KF32A156_DEMO_PMSM_FOC_V1_1' (61 sources, 67 headers) in 1.95 sec: 10,112 declarations; 66,281 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

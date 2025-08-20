@@ -1,0 +1,143 @@
+17:19:05 **** Clean-only build of configuration Release for project KF32A156_DEMO_PMSM_FOC_V1_1 ****
+gmake -j16 clean 
+rm -rf  ./src/kf32a9k1xxx_adc.o ./src/kf32a9k1xxx_aes.o ./src/kf32a9k1xxx_atim.o ./src/kf32a9k1xxx_bkp.o ./src/kf32a9k1xxx_btim.o ./src/kf32a9k1xxx_can.o ./src/kf32a9k1xxx_canfd.o ./src/kf32a9k1xxx_cfgl.o ./src/kf32a9k1xxx_cmp.o ./src/kf32a9k1xxx_crc.o ./src/kf32a9k1xxx_dac.o ./src/kf32a9k1xxx_dma.o ./src/kf32a9k1xxx_ecfgl.o ./src/kf32a9k1xxx_epwm.o ./src/kf32a9k1xxx_ewdt.o ./src/kf32a9k1xxx_exic.o ./src/kf32a9k1xxx_fdc.o ./src/kf32a9k1xxx_flash.o ./src/kf32a9k1xxx_flexmux.o ./src/kf32a9k1xxx_gpio.o ./src/kf32a9k1xxx_gtim.o ./src/kf32a9k1xxx_hrcap.o ./src/kf32a9k1xxx_i2c.o ./src/kf32a9k1xxx_int.o ./src/kf32a9k1xxx_iwdt.o ./src/kf32a9k1xxx_op.o ./src/kf32a9k1xxx_osc.o ./src/kf32a9k1xxx_pclk.o ./src/kf32a9k1xxx_pm.o ./src/kf32a9k1xxx_qei.o ./src/kf32a9k1xxx_rng.o ./src/kf32a9k1xxx_rst.o ./src/kf32a9k1xxx_rtc.o ./src/kf32a9k1xxx_spi.o ./src/kf32a9k1xxx_sysctl.o ./src/kf32a9k1xxx_systick.o ./src/kf32a9k1xxx_usart.o ./src/kf32a9k1xxx_wwdt.o  ./driver/driver_adc.o ./driver/driver_dma.o ./driver/driver_flex.o ./driver/driver_gpio.o ./driver/driver_pwm.o ./driver/driver_qei.o ./driver/driver_timer.o ./driver/driver_usart.o ./driver/hardware_init.o ./driver/kf_it.o ./driver/system_init.o  ./application/alarm.o ./application/application_init.o ./application/commu.o ./application/control.o ./application/param.o ./application/smc.o ./application/speed.o ./application/state_machine.o ./application/task.o ./application/user.o  ./_config/startup.o ./_config/vector.o  ./main.o  ./src/kf32a9k1xxx_adc.d ./src/kf32a9k1xxx_aes.d ./src/kf32a9k1xxx_atim.d ./src/kf32a9k1xxx_bkp.d ./src/kf32a9k1xxx_btim.d ./src/kf32a9k1xxx_can.d ./src/kf32a9k1xxx_canfd.d ./src/kf32a9k1xxx_cfgl.d ./src/kf32a9k1xxx_cmp.d ./src/kf32a9k1xxx_crc.d ./src/kf32a9k1xxx_dac.d ./src/kf32a9k1xxx_dma.d ./src/kf32a9k1xxx_ecfgl.d ./src/kf32a9k1xxx_epwm.d ./src/kf32a9k1xxx_ewdt.d ./src/kf32a9k1xxx_exic.d ./src/kf32a9k1xxx_fdc.d ./src/kf32a9k1xxx_flash.d ./src/kf32a9k1xxx_flexmux.d ./src/kf32a9k1xxx_gpio.d ./src/kf32a9k1xxx_gtim.d ./src/kf32a9k1xxx_hrcap.d ./src/kf32a9k1xxx_i2c.d ./src/kf32a9k1xxx_int.d ./src/kf32a9k1xxx_iwdt.d ./src/kf32a9k1xxx_op.d ./src/kf32a9k1xxx_osc.d ./src/kf32a9k1xxx_pclk.d ./src/kf32a9k1xxx_pm.d ./src/kf32a9k1xxx_qei.d ./src/kf32a9k1xxx_rng.d ./src/kf32a9k1xxx_rst.d ./src/kf32a9k1xxx_rtc.d ./src/kf32a9k1xxx_spi.d ./src/kf32a9k1xxx_sysctl.d ./src/kf32a9k1xxx_systick.d ./src/kf32a9k1xxx_usart.d ./src/kf32a9k1xxx_wwdt.d  ./driver/driver_adc.d ./driver/driver_dma.d ./driver/driver_flex.d ./driver/driver_gpio.d ./driver/driver_pwm.d ./driver/driver_qei.d ./driver/driver_timer.d ./driver/driver_usart.d ./driver/hardware_init.d ./driver/kf_it.d ./driver/system_init.d  ./application/alarm.d ./application/application_init.d ./application/commu.d ./application/control.d ./application/param.d ./application/smc.d ./application/speed.d ./application/state_machine.d ./application/task.d ./application/user.d  ./_config/startup.d ./_config/vector.d  ./main.d  KF32A156_DEMO_PMSM_FOC_V1_1.hex
+17:19:05 **** Build of configuration Release for project KF32A156_DEMO_PMSM_FOC_V1_1 ****
+gmake -j16 all 
+Building file: ../src/kf32a9k1xxx_adc.c
+Building file: ../src/kf32a9k1xxx_aes.c
+Building file: ../src/kf32a9k1xxx_atim.c
+Building file: ../src/kf32a9k1xxx_bkp.c
+Building file: ../src/kf32a9k1xxx_btim.c
+Building file: ../src/kf32a9k1xxx_can.c
+Building file: ../src/kf32a9k1xxx_canfd.c
+Building file: ../src/kf32a9k1xxx_cfgl.c
+Building file: ../src/kf32a9k1xxx_cmp.c
+Building file: ../src/kf32a9k1xxx_crc.c
+../src/kf32a9k1xxx_atim.c: In function 'ECCP_Get_Fault_INT_Flag':
+../src/kf32a9k1xxx_atim.c:3770:1: warning: control reaches end of non-void function [-Wreturn-type]
+Building file: ../src/kf32a9k1xxx_dac.c
+Building file: ../src/kf32a9k1xxx_dma.c
+Building file: ../src/kf32a9k1xxx_ecfgl.c
+Building file: ../src/kf32a9k1xxx_epwm.c
+Finished building: ../src/kf32a9k1xxx_aes.c
+Finished building: ../src/kf32a9k1xxx_bkp.c
+Building file: ../src/kf32a9k1xxx_ewdt.c
+Building file: ../src/kf32a9k1xxx_exic.c
+Building file: ../src/kf32a9k1xxx_fdc.c
+Finished building: ../src/kf32a9k1xxx_btim.c
+Finished building: ../src/kf32a9k1xxx_crc.c
+Finished building: ../src/kf32a9k1xxx_cfgl.c
+Finished building: ../src/kf32a9k1xxx_adc.c
+Finished building: ../src/kf32a9k1xxx_can.c
+Finished building: ../src/kf32a9k1xxx_canfd.c
+../src/kf32a9k1xxx_epwm.c: In function 'EPWM_Get_Trigger_AD_Event_Single':
+../src/kf32a9k1xxx_epwm.c:1187:1: warning: control reaches end of non-void function [-Wreturn-type]
+../src/kf32a9k1xxx_epwm.c: In function 'EPWM_Get_Duty_Cycle_RegisterABCD_Value':
+../src/kf32a9k1xxx_epwm.c:688:1: warning: control reaches end of non-void function [-Wreturn-type]
+Building file: ../src/kf32a9k1xxx_flash.c
+Finished building: ../src/kf32a9k1xxx_ecfgl.c
+Building file: ../src/kf32a9k1xxx_flexmux.c
+Finished building: ../src/kf32a9k1xxx_cmp.c
+Finished building: ../src/kf32a9k1xxx_dac.c
+Finished building: ../src/kf32a9k1xxx_dma.c
+Building file: ../src/kf32a9k1xxx_gpio.c
+Building file: ../src/kf32a9k1xxx_gtim.c
+../src/kf32a9k1xxx_fdc.c: In function 'FDC_Get_CFn_Flag':
+../src/kf32a9k1xxx_fdc.c:567:1: warning: control reaches end of non-void function [-Wreturn-type]
+../src/kf32a9k1xxx_fdc.c: In function 'FDC_Get_Channel_List_Error_Flag':
+../src/kf32a9k1xxx_fdc.c:527:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../src/kf32a9k1xxx_atim.c
+Finished building: ../src/kf32a9k1xxx_ewdt.c
+Finished building: ../src/kf32a9k1xxx_exic.c
+Building file: ../src/kf32a9k1xxx_hrcap.c
+Building file: ../src/kf32a9k1xxx_i2c.c
+Building file: ../src/kf32a9k1xxx_int.c
+Building file: ../src/kf32a9k1xxx_iwdt.c
+Finished building: ../src/kf32a9k1xxx_epwm.c
+Finished building: ../src/kf32a9k1xxx_fdc.c
+Finished building: ../src/kf32a9k1xxx_flexmux.c
+Building file: ../src/kf32a9k1xxx_op.c
+Building file: ../src/kf32a9k1xxx_osc.c
+Building file: ../src/kf32a9k1xxx_pclk.c
+Finished building: ../src/kf32a9k1xxx_flash.c
+Building file: ../src/kf32a9k1xxx_pm.c
+Finished building: ../src/kf32a9k1xxx_gpio.c
+Building file: ../src/kf32a9k1xxx_qei.c
+Building file: ../src/kf32a9k1xxx_rng.c
+Finished building: ../src/kf32a9k1xxx_hrcap.c
+Building file: ../src/kf32a9k1xxx_rst.c
+Finished building: ../src/kf32a9k1xxx_int.c
+Finished building: ../src/kf32a9k1xxx_iwdt.c
+Finished building: ../src/kf32a9k1xxx_gtim.c
+Building file: ../src/kf32a9k1xxx_rtc.c
+Finished building: ../src/kf32a9k1xxx_pclk.c
+Finished building: ../src/kf32a9k1xxx_i2c.c
+Finished building: ../src/kf32a9k1xxx_op.c
+Building file: ../src/kf32a9k1xxx_spi.c
+Building file: ../src/kf32a9k1xxx_sysctl.c
+Building file: ../src/kf32a9k1xxx_systick.c
+Finished building: ../src/kf32a9k1xxx_osc.c
+Building file: ../src/kf32a9k1xxx_usart.c
+Building file: ../src/kf32a9k1xxx_wwdt.c
+Building file: ../driver/driver_adc.c
+Finished building: ../src/kf32a9k1xxx_rng.c
+Finished building: ../src/kf32a9k1xxx_qei.c
+Finished building: ../src/kf32a9k1xxx_rst.c
+Finished building: ../src/kf32a9k1xxx_pm.c
+Building file: ../driver/driver_dma.c
+Building file: ../driver/driver_flex.c
+Building file: ../driver/driver_gpio.c
+Building file: ../driver/driver_pwm.c
+Finished building: ../src/kf32a9k1xxx_systick.c
+Finished building: ../src/kf32a9k1xxx_sysctl.c
+Building file: ../driver/driver_qei.c
+Building file: ../driver/driver_timer.c
+Finished building: ../src/kf32a9k1xxx_spi.c
+Finished building: ../src/kf32a9k1xxx_rtc.c
+Finished building: ../src/kf32a9k1xxx_wwdt.c
+Building file: ../driver/driver_usart.c
+Finished building: ../driver/driver_adc.c
+Finished building: ../driver/driver_dma.c
+Building file: ../driver/hardware_init.c
+Finished building: ../driver/driver_flex.c
+Building file: ../driver/kf_it.c
+Building file: ../driver/system_init.c
+Building file: ../application/alarm.c
+Finished building: ../driver/driver_gpio.c
+Finished building: ../src/kf32a9k1xxx_usart.c
+Finished building: ../driver/driver_pwm.c
+Finished building: ../driver/driver_qei.c
+Finished building: ../driver/driver_timer.c
+Building file: ../application/application_init.c
+Building file: ../application/commu.c
+Building file: ../application/control.c
+Finished building: ../driver/driver_usart.c
+Building file: ../application/param.c
+Finished building: ../driver/hardware_init.c
+Building file: ../application/smc.c
+Building file: ../application/speed.c
+Building file: ../application/state_machine.c
+Finished building: ../driver/kf_it.c
+Finished building: ../driver/system_init.c
+Finished building: ../application/alarm.c
+Building file: ../application/task.c
+Building file: ../application/user.c
+Building file: ../_config/startup.c
+Finished building: ../application/application_init.c
+Finished building: ../application/commu.c
+Finished building: ../application/control.c
+Building file: ../_config/vector.c
+Finished building: ../application/param.c
+Building file: ../main.c
+Finished building: ../application/smc.c
+Finished building: ../application/speed.c
+Finished building: ../application/state_machine.c
+Finished building: ../application/user.c
+Finished building: ../application/task.c
+Finished building: ../_config/vector.c
+Finished building: ../_config/startup.c
+Finished building: ../main.c
+Building target: KF32A156_DEMO_PMSM_FOC_V1_1.hex
+Finished building target: KF32A156_DEMO_PMSM_FOC_V1_1.hex
+Finished building: KF32A156_DEMO_PMSM_FOC_V1_1.s19
+Finished building: KF32A156_DEMO_PMSM_FOC_V1_1.lst

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "application"
+		},
+		{
+			"path": "driver"
+		},
+		{
+			"path": "inc"
+		},
+		{
+			"path": "src"
+		}
+	]
+}

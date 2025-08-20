@@ -7,9 +7,6 @@
 int32_t adc_current_scale = 0;
 int32_t adc_voltage_scale = 0;
 
-
-
-
 void main()
 {
 	INT_All_Enable(FALSE);

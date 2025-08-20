@@ -1,19 +1,19 @@
 # 1 "../main.c"
-# 1 "/cygdrive/c/kf32_workspace_copy/KF32A156_DEMO_PMSM_FOC_V1_1/Release//"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\Release//"
 # 1 "<command-line>"
 # 1 "../main.c"
 
 
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 1
-# 11 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h"
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 1
-# 13 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h"
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h" 1
-# 18 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
-# 1 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdint.h" 1
-# 16 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdint.h"
-# 1 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stddef.h" 1
-# 24 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stddef.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 1
+# 11 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 1
+# 13 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h" 1
+# 18 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 1 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdint.h" 1
+# 16 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdint.h"
+# 1 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stddef.h" 1
+# 24 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stddef.h"
 typedef int ptrdiff_t;
 
 
@@ -26,7 +26,7 @@ typedef unsigned int size_t;
 
 
 typedef unsigned short wchar_t;
-# 17 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdint.h" 2
+# 17 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdint.h" 2
 
 
 
@@ -62,9 +62,9 @@ typedef int int_fast32_t;
 typedef unsigned int uint_fast32_t;
 typedef long long int_fast64_t;
 typedef unsigned long long uint_fast64_t;
-# 60 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdint.h"
+# 60 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdint.h"
   typedef int intptr_t;
-# 69 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdint.h"
+# 69 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdint.h"
   typedef unsigned int uintptr_t;
 
 
@@ -72,7 +72,7 @@ typedef unsigned long long uint_fast64_t;
 
 typedef long long intmax_t;
 typedef unsigned long long uintmax_t;
-# 19 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h" 2
+# 19 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h" 2
 
 
 
@@ -116,7 +116,7 @@ typedef enum
     DIR_DOWN = 0,
     DIR_UP = !DIR_DOWN
 } DIRStatus;
-# 70 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 70 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef enum
 {
     INT_Initial_SP = 0,
@@ -207,7 +207,7 @@ typedef enum
     INT_HRCAP2 = 78,
     INT_USART7 = 79
 }InterruptIndex;
-# 172 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 172 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct GPIO_MenMap
 {
  volatile const uint32_t PIR;
@@ -222,7 +222,7 @@ typedef struct GPIO_MenMap
  volatile uint32_t RESERVED[3];
  volatile uint32_t RMP_MSB;
 }GPIO_SFRmap;
-# 883 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 883 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct OSC_MemMap
 {
     volatile uint32_t CTL0;
@@ -238,7 +238,7 @@ typedef struct PLL_MenMap
 {
  volatile uint32_t CTL;
 }PLL_SFRmap;
-# 1235 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 1235 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct INT_MemMap
 {
     volatile uint32_t CTL0;
@@ -282,7 +282,7 @@ typedef struct INT_MemMap
     volatile uint32_t EINTSS1;
     volatile uint32_t CTL1;
 }INT_SFRmap;
-# 2674 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 2674 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct SYSCTL_MemMap {
     volatile uint32_t PSW;
     volatile uint32_t MCTL;
@@ -294,7 +294,7 @@ typedef struct SYSCTL_MemMap {
     volatile uint32_t MSPSPA;
     volatile uint32_t PSPSPA;
 }SYSCTL_SFRmap;
-# 2816 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 2816 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct DMA_MenMap
 {
  union
@@ -396,7 +396,7 @@ typedef struct DMA_MenMap
     volatile uint32_t LIFR;
     volatile uint32_t LIER;
 }DMA_SFRmap;
-# 3486 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 3486 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct SYSTICK_MemMap
 {
     volatile uint32_t CTL;
@@ -404,7 +404,7 @@ typedef struct SYSTICK_MemMap
     volatile uint32_t CV;
     volatile uint32_t CALI;
 }SYSTICK_SFRmap;
-# 3544 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 3544 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct BTIM_MemMap
 {
     volatile uint32_t CNT;
@@ -416,7 +416,7 @@ typedef struct BTIM_MemMap
     volatile const uint32_t SR;
     volatile uint32_t SRIC;
 }BTIM_SFRmap;
-# 3720 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 3720 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct GPTIM_MemMap
 {
     volatile uint32_t CNT;
@@ -442,7 +442,7 @@ typedef struct GPTIM_MemMap
     volatile uint32_t CCPXCTL3;
     volatile uint32_t CCPXEGIF;
 }GPTIM_SFRmap, CCP_SFRmap;
-# 4197 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 4197 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct ATIM_MemMap
 {
     volatile uint32_t TXCNT;
@@ -506,7 +506,7 @@ typedef struct ATIM_MemMap
     volatile uint32_t ECCPXSRIC;
     volatile uint32_t ECCPXCTL3;
 }ATIM_SFRmap, ECCP_SFRmap;
-# 5072 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 5072 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct EPWM_MemMap
 {
  volatile uint32_t CNT;
@@ -536,7 +536,7 @@ typedef struct EPWM_MemMap
  volatile uint32_t RD;
  volatile uint32_t UDCTL;
 }EPWM_SFRmap;
-# 5730 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 5730 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct HRCAP_MenMap
 {
  volatile uint32_t CTL;
@@ -549,7 +549,7 @@ typedef struct HRCAP_MenMap
  volatile uint32_t SRIC;
  volatile uint32_t IFRC;
 }HRCAP_SFRmap;
-# 5890 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 5890 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct QEI_MenMap
 {
     volatile uint32_t CTL0;
@@ -559,7 +559,7 @@ typedef struct QEI_MenMap
     volatile uint32_t PRSC;
     volatile uint32_t DIER;
 }QEI_SFRmap;
-# 6009 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 6009 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct ADC_MemMap {
     volatile uint32_t CTL0;
     volatile uint32_t CTL1;
@@ -584,7 +584,7 @@ typedef struct ADC_MemMap {
     volatile uint32_t DELAY;
     volatile uint32_t SCANCTL;
 }ADC_SFRmap;
-# 6714 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 6714 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct DAC_MemMap
 {
     volatile uint32_t CTL;
@@ -594,7 +594,7 @@ typedef struct DAC_MemMap
                    uint32_t RESERVED;
     volatile uint32_t CAL;
 }DAC_SFRmap;
-# 6881 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 6881 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct CMP_MemMap
 {
     volatile uint32_t CTL0;
@@ -608,7 +608,7 @@ typedef struct CMP_MemMap
     volatile uint32_t TRIM2;
     volatile uint32_t TRIM3;
 }CMP_SFRmap;
-# 7320 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 7320 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct OP_MemMap
 {
  volatile uint32_t CTL0;
@@ -618,7 +618,7 @@ typedef struct OP_MemMap
  volatile uint32_t TRIM2;
  volatile uint32_t TRIM3;
 }OP_SFRmap;
-# 7615 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 7615 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct USART_MemMap
 {
     volatile uint32_t CTLR;
@@ -633,7 +633,7 @@ typedef struct USART_MemMap
     volatile uint32_t IER;
     volatile uint32_t ADM;
 }USART_SFRmap;
-# 7956 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 7956 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct SPI_MemMap
 {
     volatile uint32_t BRGR;
@@ -641,7 +641,7 @@ typedef struct SPI_MemMap
     volatile uint32_t BUFR;
     volatile uint32_t STR;
 }SPI_SFRmap;
-# 8108 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 8108 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct I2C_MemMap
 {
     volatile uint32_t CTLR;
@@ -654,7 +654,7 @@ typedef struct I2C_MemMap
     volatile uint32_t ADDR3;
     volatile uint32_t IER;
 }I2C_SFRmap;
-# 8361 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 8361 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct CAN_MemMap
 {
     volatile uint32_t CTLR;
@@ -674,7 +674,7 @@ typedef struct CAN_MemMap
     volatile const uint32_t RXDATA2;
     volatile const uint32_t RXDATA3;
 }CAN_SFRmap;
-# 9470 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 9470 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct CANFD_MenMap
 {
  volatile uint32_t CTLR0;
@@ -692,7 +692,7 @@ typedef struct CANFD_MenMap
  volatile uint32_t CTLR1;
  volatile const uint32_t AMSTA;
 }CANFD_SFRMap;
-# 9992 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 9992 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct EXIC_MemMap
 {
     volatile uint32_t CTL0;
@@ -703,7 +703,7 @@ typedef struct EXIC_MemMap
     volatile uint32_t READBUF;
 
 }EXIC_SFRmap;
-# 10086 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 10086 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct RTC_MemMap
 {
     volatile uint32_t CR;
@@ -718,33 +718,33 @@ typedef struct RTC_MemMap
     volatile uint32_t TMBR;
     volatile uint32_t DTBR;
 }RTC_SFRmap;
-# 10622 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 10622 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct IWDT_MemMap
 {
     volatile uint32_t CTL;
     volatile uint32_t FD;
 }IWDT_SFRmap;
-# 10671 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 10671 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct WWDT_MemMap
 {
     volatile uint32_t CTL;
     volatile uint32_t CNT;
     volatile uint32_t CTL1;
 }WWDT_SFRmap;
-# 10750 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 10750 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct EWDT_MenMap
 {
  volatile uint32_t CTL;
  volatile uint32_t CNT;
 }EWDT_SFRmap;
-# 10836 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 10836 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct CFGL_MemMap
 {
     volatile uint32_t CTL0;
     volatile uint32_t CTL1;
     volatile uint32_t IFR;
 }CFGL_SFRmap;
-# 11023 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 11023 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct ECFGL_MenMap
 {
  union
@@ -779,7 +779,7 @@ typedef struct ECFGL_MenMap
  volatile uint32_t ADC;
  volatile const uint32_t OUT;
 }ECFGL_SFRmap;
-# 11370 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 11370 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct RST_MemMap
 {
     volatile uint32_t CTL0;
@@ -787,7 +787,7 @@ typedef struct RST_MemMap
     volatile uint32_t CTL2;
     volatile uint32_t CTL3;
 }RST_SFRmap;
-# 11552 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 11552 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct PCLK_MemMap
 {
     volatile uint32_t CTL0;
@@ -795,7 +795,7 @@ typedef struct PCLK_MemMap
     volatile uint32_t CTL2;
     volatile uint32_t CTL3;
 }PCLK_SFRmap;
-# 11734 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 11734 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct PM_MemMap {
     volatile uint32_t CTL0;
     volatile uint32_t CTL1;
@@ -807,7 +807,7 @@ typedef struct PM_MemMap {
     volatile uint32_t CAL1;
     volatile uint32_t CAL2;
 }PM_SFRmap;
-# 12210 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 12210 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct BKP_MemMap
 {
     volatile uint32_t CTL;
@@ -815,7 +815,7 @@ typedef struct BKP_MemMap
              uint32_t RESERVED[14];
     volatile uint32_t DATA[8];
 }BKP_SFRmap;
-# 12296 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 12296 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct FLASH_MemMap
 {
     volatile uint32_t ISPCON0;
@@ -836,7 +836,7 @@ typedef struct FLASH_MemMap
     volatile uint32_t CSSTOP;
     volatile uint32_t CSRES[4];
 }FLASH_SFRmap;
-# 12497 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 12497 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct CRC_MemMap
 {
  volatile uint32_t CTL;
@@ -849,7 +849,7 @@ typedef struct CRC_MemMap
  volatile const uint32_t TEMP;
 
 }CRC_SFRmap;
-# 12559 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 12559 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct AES_MenMap
 {
  volatile uint32_t CTL;
@@ -865,7 +865,7 @@ typedef struct AES_MenMap
  volatile const uint32_t OUTPUT2;
  volatile const uint32_t OUTPUT3;
 }AES_SFRmap;
-# 12667 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 12667 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct RNG_MenMap
 {
  volatile uint32_t CTL;
@@ -873,13 +873,13 @@ typedef struct RNG_MenMap
  volatile const uint32_t SEED;
  volatile const uint32_t DR;
 }RNG_SFRmap;
-# 12770 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 12770 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct FlexMUX_MenMap
 {
  volatile uint32_t SOU;
  volatile uint32_t TAR;
 }FlexMUX_SFRmap;
-# 12925 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 12925 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct FDC_MenMap
 {
  volatile uint32_t CTL;
@@ -912,7 +912,7 @@ typedef struct FDC_MenMap
  volatile uint32_t PO2DLY;
  volatile uint32_t PO3DLY;
 }FDC_SFRmap;
-# 13426 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 13426 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct FlexRM_MenMap
 {
  volatile uint32_t CTL;
@@ -922,20 +922,20 @@ typedef struct FlexRM_MenMap
  volatile uint32_t GCSR1;
  volatile uint32_t GCSR2;
 }FlexRM_SFRmap;
-# 13849 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 13849 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 typedef struct CACHE_MenMap
 {
  volatile uint32_t CTLR;
 }CACHE_SFRmap;
-# 13914 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
+# 13914 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h"
 static inline uint32_t
 SFR_Config (uint32_t SfrMem, uint32_t SfrMask, uint32_t WriteVal)
 {
     return ((SfrMem & SfrMask) | (WriteVal));
 }
-# 14 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_adc.h" 1
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_adc.h"
+# 14 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_adc.h" 1
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_adc.h"
 typedef struct
 {
     uint32_t m_Clock;
@@ -993,7 +993,7 @@ typedef struct
     uint32_t m_Threshold_L;
 
 }ADC_WD_InitTypeDef;
-# 968 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_adc.h"
+# 968 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_adc.h"
 void ADC_Reset (ADC_SFRmap* ADCx);
 void ADC_Configuration (ADC_SFRmap* ADCx, ADC_InitTypeDef* adcInitStruct);
 void ADC_Struct_Init (ADC_InitTypeDef* adcInitStruct);
@@ -1066,9 +1066,9 @@ void ADC_Set_INT_Enable (ADC_SFRmap* ADCx,
 FlagStatus ADC_Get_INT_Flag (ADC_SFRmap* ADCx, uint32_t InterruptType);
 void ADC_Clear_INT_Flag (ADC_SFRmap* ADCx, uint32_t InterruptType);
 INTStatus ADC_Get_INT_Status (ADC_SFRmap* ADCx, uint32_t InterruptType);
-# 15 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_aes.h" 1
-# 73 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_aes.h"
+# 15 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_aes.h" 1
+# 73 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_aes.h"
 void AES_Reset ();
 void AES_Run_Enable(FunctionalState NewState);
 void AES_High_Speed_Enable(FunctionalState NewState);
@@ -1097,9 +1097,9 @@ uint32_t GET_AES_OUTPUT0_DATA (void);
 uint32_t GET_AES_OUTPUT1_DATA (void);
 uint32_t GET_AES_OUTPUT2_DATA (void);
 uint32_t GET_AES_OUTPUT3_DATA (void);
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h" 1
-# 33 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h"
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h" 1
+# 33 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h"
 typedef struct
 {
     uint16_t m_Counter;
@@ -1158,7 +1158,7 @@ typedef struct
     FunctionalState m_CloseTimer;
 
 } ECCP_PWMInitTypeDef;
-# 473 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h"
+# 473 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h"
 void ATIM_Reset (ATIM_SFRmap* ATIMx);
 void ATIM_X_Configuration(ATIM_SFRmap* ATIMx, ATIM_InitTypeDef* atimInitStruct);
 void ATIM_Z_Configuration(ATIM_SFRmap* ATIMx, ATIM_InitTypeDef* atimInitStruct);
@@ -1346,7 +1346,7 @@ void ECCP_Channel_Zero_Detect_Enable (ECCP_SFRmap* ECCPx,
                     uint32_t Channel, uint32_t NewState);
 void ECCP_Channel_Zero_Voltage_Config (ECCP_SFRmap* ECCPx,
                     uint32_t Channel, uint32_t ZeroDetectVoltage);
-# 668 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h"
+# 668 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h"
 typedef struct
 {
     uint32_t m_Counter;
@@ -1368,9 +1368,9 @@ typedef struct
     FunctionalState m_GateEn;
 
 } ETIM_InitTypeDef;
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_bkp.h" 1
-# 61 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_bkp.h"
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_bkp.h" 1
+# 61 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_bkp.h"
 void BKP_Reset (void);
 void BKP_Write_And_Read_Enable (FunctionalState NewState);
 
@@ -1389,9 +1389,9 @@ void BKP_TAMP_SCK_Select(uint32_t CLK);
 void BKP_Pin_TAMP_INT_Enable (uint32_t PinSel, FunctionalState NewState);
 FlagStatus BKP_Get_Pin_TAMP_INT_Flag (uint32_t PinSel);
 void BKP_Clear_Pin_TAMP_INT_Flag (uint32_t PinSel);
-# 18 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_btim.h" 1
-# 46 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_btim.h"
+# 18 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_btim.h" 1
+# 46 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_btim.h"
 typedef struct
 {
     uint16_t m_Counter;
@@ -1412,7 +1412,7 @@ typedef struct
     uint16_t m_MasterSlaveSync;
 
 } BTIM_InitTypeDef;
-# 154 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_btim.h"
+# 154 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_btim.h"
 void TIM_Reset (void* TIMx);
 void BTIM_Reset (BTIM_SFRmap* BTIMx);
 
@@ -1472,9 +1472,9 @@ FlagStatus BTIM_Get_Updata_INT_Flag (BTIM_SFRmap* BTIMx);
 void BTIM_Clear_Overflow_INT_Flag (BTIM_SFRmap* BTIMx);
 void BTIM_Clear_Trigger_INT_Flag (BTIM_SFRmap* BTIMx);
 void BTIM_Clear_Updata_INT_Flag (BTIM_SFRmap* BTIMx);
-# 19 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_can.h" 1
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_can.h"
+# 19 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_can.h" 1
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_can.h"
 typedef struct
 {
     FunctionalState m_Enable;
@@ -1532,7 +1532,7 @@ typedef struct
     uint8_t m_Data[8];
 
 }CAN_MessageTypeDef;
-# 307 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_can.h"
+# 307 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_can.h"
 void CAN_Reset(CAN_SFRmap* CANx);
 void CAN_Configuration(CAN_SFRmap* CANx, CAN_InitTypeDef* canInitStruct);
 void CAN_Configuration_With_Reset_Mode(CAN_SFRmap* CANx, CAN_InitTypeDef* canInitStruct);
@@ -1587,9 +1587,9 @@ void CAN_Set_Reseive_DMA_Enable(CAN_SFRmap* CANx, FunctionalState NewState);
 void CAN_Set_Send_DMA_Enable(CAN_SFRmap* CANx, FunctionalState NewState);
 FlagStatus CAN_Get_Receive_DMA_Flag(CAN_SFRmap* CANx);
 FlagStatus CAN_Get_Send_DMA_Flag(CAN_SFRmap* CANx);
-# 20 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_canfd.h" 1
-# 149 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_canfd.h"
+# 20 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_canfd.h" 1
+# 149 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_canfd.h"
 void CANFD_Reset(CANFD_SFRMap* CANFDx);
 uint8_t CANFD_Get_Rx_Information_Count(CANFD_SFRMap* CANFDx);
 void CANFD_Bus_Status_Enable(CANFD_SFRMap* CANFDx, FunctionalState NewState);
@@ -1657,9 +1657,9 @@ FlagStatus CANFD_Get_Rx_Match_Flag(CANFD_SFRMap* CANFDx);
 uint16_t CANFD_Get_AMSTA_ARBWINNER_Value(CANFD_SFRMap* CANFDx);
 FlagStatus CANFD_Get_Tx_Arbitration0_Flag(CANFD_SFRMap* CANFDx);
 FlagStatus CANFD_Get_Tx_Arbitration1_Flag(CANFD_SFRMap* CANFDx);
-# 21 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cfgl.h" 1
-# 22 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cfgl.h"
+# 21 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cfgl.h" 1
+# 22 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cfgl.h"
 typedef struct
 {
  uint32_t m_Module_EN;
@@ -1759,7 +1759,7 @@ typedef struct
  FunctionalState m_G1D1_Inverse_EN;
 
 } CFGL_InitTypeDef;
-# 335 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cfgl.h"
+# 335 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cfgl.h"
 FlagStatus CFGL1_OUT_STATE ();
 FlagStatus CFGL2_OUT_STATE ();
 FlagStatus CFGL2_Get_INT_Flag ();
@@ -1780,9 +1780,9 @@ void CFGL2_Clear_FALLINT_Flag (void);
 void CFGL2_Clear_RISEFALLINT_Flag (void);
 void CFGL_Struct_Init (CFGL_InitTypeDef* CFGLInitStruct);
 void CFGL_Clear_INT_Flag(void);
-# 22 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cmp.h" 1
-# 27 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cmp.h"
+# 22 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cmp.h" 1
+# 27 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cmp.h"
 typedef struct
 {
  uint32_t m_PositiveInput;
@@ -1804,7 +1804,7 @@ typedef struct
     FunctionalState m_CmpEnable;
 
 }CMP_InitTypeDef;
-# 507 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cmp.h"
+# 507 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_cmp.h"
 void CMP_Reset (void);
 void CMP_Configuration (uint8_t CMPx_NUM, CMP_InitTypeDef* CMPInitStruct);
 void CMP_Struct_Init (CMP_InitTypeDef* CMPInitStruct);
@@ -1860,9 +1860,9 @@ void CMP0123_TRIM_PMOS_Direction_Select(uint8_t CMPx_NUM, uint32_t Direction);
 void CMP0123_TRIM_NMOS_Cail(uint8_t CMPx_NUM, uint8_t Value);
 void CMP0123_TRIM_NMOS_Direction_Select(uint8_t CMPx_NUM, uint32_t Direction);
 void CMP0123_WIN_Control_CLK_Select(uint8_t CMPx_NUM, uint32_t Select);
-# 23 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_crc.h" 1
-# 21 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_crc.h"
+# 23 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_crc.h" 1
+# 21 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_crc.h"
 typedef struct
 {
  uint32_t m_CalUnitReset;
@@ -1881,7 +1881,7 @@ typedef struct
  uint32_t m_IndepentData;
  uint32_t m_Temp;
 } CRC_InitTypeDef;
-# 76 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_crc.h"
+# 76 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_crc.h"
 void CRC_Reset ();
 void CRC_Configuration (CRC_InitTypeDef* CRCInitStruct);
 void CRC_Struct_Init (CRC_InitTypeDef* CRCInitStruct);
@@ -1893,9 +1893,9 @@ void CRC_SET_RXOR (uint32_t DATA);
 void CRC_SET_IDATA (uint32_t DATA);
 uint32_t CRC_GET_TEMP ();
 void CRC_SET_RSET ();
-# 24 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dac.h" 1
-# 25 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dac.h"
+# 24 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dac.h" 1
+# 25 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dac.h"
 typedef struct
 {
     FunctionalState m_TriggerEnable;
@@ -1921,7 +1921,7 @@ typedef struct
     uint32_t m_Output;
 
 }DAC_InitTypeDef;
-# 189 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dac.h"
+# 189 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dac.h"
 void DAC_Reset (DAC_SFRmap* DACx);
 void DAC_Configuration (DAC_SFRmap* DACx, DAC_InitTypeDef* dacInitStruct);
 void DAC_Struct_Init (DAC_InitTypeDef* dacInitStruct);
@@ -1945,9 +1945,9 @@ void DAC_TRIMHI_Enable(DAC_SFRmap* DACx, FunctionalState NewState);
 void DAC_TRIMLO_Enable(DAC_SFRmap* DACx, FunctionalState NewState);
 void DAC_Test_Group_Config(DAC_SFRmap* DACx, uint32_t TestGroup);
 void DAC_Test_Group_Enable(DAC_SFRmap* DACx, FunctionalState NewState);
-# 25 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dma.h" 1
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dma.h"
+# 25 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dma.h" 1
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dma.h"
 typedef struct
 {
     uint8_t m_Channel;
@@ -1975,7 +1975,7 @@ typedef struct
     uint32_t m_MemoryAddr;
 
 }DMA_InitTypeDef;
-# 122 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dma.h"
+# 122 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_dma.h"
 void DMA_Reset (DMA_SFRmap* DMAx);
 void DMA_Configuration (DMA_SFRmap* DMAx, DMA_InitTypeDef* dmaInitStruct);
 void DMA_Struct_Init (DMA_InitTypeDef* dmaInitStruct);
@@ -2009,9 +2009,9 @@ FlagStatus DMA_Get_Finish_Transfer_INT_Flag (DMA_SFRmap* DMAx, uint32_t Channel)
 void DMA_Error_Transfer_INT_Enable (DMA_SFRmap* DMAx, uint32_t Channel, FunctionalState NewState);
 void DMA_Half_Transfer_INT_Enable (DMA_SFRmap* DMAx, uint32_t Channel, FunctionalState NewState);
 void DMA_Finish_Transfer_INT_Enable (DMA_SFRmap* DMAx, uint32_t Channel, FunctionalState NewState);
-# 26 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ecfgl.h" 1
-# 125 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ecfgl.h"
+# 26 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ecfgl.h" 1
+# 125 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ecfgl.h"
 void ECFGL_Reset (void);
 void ECFGL_Output_Enable(uint32_t ECFGLx, FunctionalState NewState);
 void ECFGL_Function_Select(uint32_t ECFGLx, uint32_t Function);
@@ -2030,9 +2030,9 @@ void ECFGLx_Fall_INT_Enable(uint32_t ECFGLx, FunctionalState NewState);
 void ECFGLx_Trigger_ADC_Enable(FunctionalState NewState);
 void ECFGLx_Trigger_ADC_Source_Select(uint32_t ECFGLx);
 FlagStatus ECFGLx_Get_ECFGLx_Output_Status(uint32_t ECFGLx);
-# 27 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_epwm.h" 1
-# 306 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_epwm.h"
+# 27 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_epwm.h" 1
+# 306 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_epwm.h"
 void EPWM_Reset (EPWM_SFRmap* EPWMx);
 void EPWM_TxCNT_Value_Config(EPWM_SFRmap* EPWMx, uint32_t Value);
 uint32_t EPWM_Get_TxCNT_Value(EPWM_SFRmap* EPWMx);
@@ -2105,9 +2105,9 @@ uint32_t EPWM_Get_Cap_Register_Current_Value(EPWM_SFRmap* EPWMx);
 void EPWM_UDCTL_Updata_Enable(EPWM_SFRmap* EPWMx, uint32_t Mode, FunctionalState NewState);
 void EPWM_UDCTL_Register_Updata_Event_Select(EPWM_SFRmap* EPWMx, uint32_t Mode, uint32_t Select);
 void EPWM_Global_Loading_Enable(EPWM_SFRmap* EPWMx, FunctionalState NewState);
-# 28 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ewdt.h" 1
-# 73 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ewdt.h"
+# 28 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ewdt.h" 1
+# 73 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_ewdt.h"
 void EWDT_Reset (void);
 void EWDT_Output_Effective_Single_Select(uint32_t Select);
 FlagStatus EWDT_Get_Reset_INT_Flag(void);
@@ -2124,9 +2124,9 @@ void EWDT_Count40_INT_Enable(FunctionalState NewState);
 void EWDT_Enable(FunctionalState NewState);
 uint8_t EWDT_Get_Count_Value(void);
 void EWDT_Set_Count_Value(uint8_t Value);
-# 29 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_exic.h" 1
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_exic.h"
+# 29 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_exic.h" 1
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_exic.h"
 typedef struct
 {
  FunctionalState m_Module_Enable;
@@ -2161,7 +2161,7 @@ typedef struct
 
 
 }EXIC_InitTypeDef;
-# 119 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_exic.h"
+# 119 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_exic.h"
 void EXIC_Struct_Init (EXIC_InitTypeDef* EXICInitStruct);
 uint32_t EXIC_Read_Buff (void);
 void EXIC_Write_Buff (uint32_t DATA);
@@ -2171,9 +2171,9 @@ FlagStatus EXIC_Get_Read_Finish_INT_Flag (void);
 FlagStatus EXIC_Get_Write_Finish_INT_Flag (void);
 void EXIC_Configuration (EXIC_InitTypeDef* EXICInitStruct);
 void EXIC_Reset (void);
-# 30 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_fdc.h" 1
-# 107 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_fdc.h"
+# 30 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_fdc.h" 1
+# 107 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_fdc.h"
 void FDC_Reset(FDC_SFRmap* FDCx);
 void FDC_TRGI_Count_Reset_Enable(FDC_SFRmap* FDCx, FunctionalState NewState);
 void FDC_Work_Clk_Select(FDC_SFRmap* FDCx, uint32_t CLK);
@@ -2209,9 +2209,9 @@ void FDC_Channelm_Pre_Triggle_Delay3(FDC_SFRmap* FDCx, uint32_t Channel, uint32_
 void FDC_Channelm_Pre_Triggle_Delay4(FDC_SFRmap* FDCx, uint32_t Channel, uint32_t Value);
 void FDC_Pulse_Output_DelayH(FDC_SFRmap* FDCx, uint32_t Channel, uint32_t Value);
 void FDC_Pulse_Output_DelayL(FDC_SFRmap* FDCx, uint32_t Channel, uint32_t Value);
-# 31 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flash.h" 1
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flash.h"
+# 31 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flash.h" 1
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flash.h"
 typedef enum
 {
     LOCK = 0,
@@ -2245,7 +2245,7 @@ typedef struct
     uint32_t * m_Data;
 
 }FLASH_ProgramTypeDef;
-# 140 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flash.h"
+# 140 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flash.h"
 LockStatus FLASH_Get_NonVolatile_Memory_Unlock_Status_RAM (void);
 void FLASH_Clear_NonVolatile_Memory_Unlock_Status_RAM (void);
 void FLASH_Unlock_ISP_RAM (void);
@@ -2329,9 +2329,9 @@ void CACHE_Instruction_CACHE_Read_2Row_Enable(FunctionalState NewState);
 void CACHE_Instruction_CACHE_Write_2Row_Enable(FunctionalState NewState);
 void CACHE_CACHE_Reset_Enable(FunctionalState NewState);
 void CACHE_CACHE_Enable(FunctionalState NewState);
-# 32 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flexmux.h" 1
-# 174 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flexmux.h"
+# 32 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flexmux.h" 1
+# 174 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flexmux.h"
 void FMUX_Reset(void);
 void FMUX_Channel_Enable(uint32_t Channel, FunctionalState NewState);
 void FMUX_Channel_Triggle_Source_Select(uint32_t Channel, uint32_t Source);
@@ -2340,15 +2340,15 @@ void FMUX_Output_Channel_DMA_Enable(uint32_t Channel, FunctionalState NewState);
 void FMUX_Triggle_Single_Maintain_Time_Select(uint32_t Channel, uint32_t DIV);
 void FMUX_Output_Select(uint32_t Channel, uint32_t MODE);
 void FMUX_Work_CLK_Select(uint32_t CLK);
-# 33 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h" 1
-# 29 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
+# 33 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h" 1
+# 29 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
 typedef enum
 {
     GPIO_NOPULL = 0x00,
     GPIO_PULLUP = 0x01
 }GPIOPU_TypeDef, GPIOPD_TypeDef;
-# 44 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
+# 44 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
 typedef enum
 {
     GPIO_POD_PP = 0x00,
@@ -2367,7 +2367,7 @@ typedef enum
     GPIO_MODE_RMP = 0x02,
     GPIO_MODE_AN = 0x03
 }GPIOMode_TypeDef;
-# 70 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
+# 70 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
 typedef enum
 {
     GPIO_LOW_SPEED = 0,
@@ -2408,7 +2408,7 @@ typedef enum
     Bit_RESET = 0,
     Bit_SET = !Bit_RESET
 }BitAction;
-# 274 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
+# 274 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h"
 void GPIO_Reset (GPIO_SFRmap* GPIOx);
 void GPIO_Configuration (GPIO_SFRmap* GPIOx, GPIO_InitTypeDef* gpioInitStruct);
 void GPIO_Struct_Init (GPIO_InitTypeDef* gpioInitStruct);
@@ -2450,9 +2450,9 @@ void FlexRM_Group_Enable(uint32_t Channel, FunctionalState NewState);
 void FlexRM_Group_Function_Select(uint32_t Group, uint32_t Port);
 void FlexRM_Group_Output_Select(uint32_t Group, uint32_t Channel);
 void FlexRM_Group_Input_Select(uint32_t Group, uint32_t Channel);
-# 34 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gtim.h" 1
-# 29 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gtim.h"
+# 34 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gtim.h" 1
+# 29 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gtim.h"
 typedef struct
 {
     uint32_t m_Counter;
@@ -2522,7 +2522,7 @@ typedef struct
     uint32_t m_CloseTimer;
 
 } CCP_PWMInitTypeDef;
-# 265 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gtim.h"
+# 265 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gtim.h"
 void GPTIM_Reset (GPTIM_SFRmap* GPTIMx);
 void GPTIM_Configuration(GPTIM_SFRmap* GPTIMx,
                     GPTIM_InitTypeDef* gptimInitStruct);
@@ -2613,9 +2613,9 @@ FlagStatus CCP_Get_Trigger_DMA_INT_Flag (CCP_SFRmap* CCPx, uint32_t Channel);
 void CCP_Channel_INT_Config (CCP_SFRmap* CCPx, uint32_t Channel,
                     FunctionalState NewState);
 void CCP_Clear_Channel_INT_Flag (CCP_SFRmap* CCPx, uint32_t Channel);
-# 35 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_hrcap.h" 1
-# 65 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_hrcap.h"
+# 35 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_hrcap.h" 1
+# 65 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_hrcap.h"
 void HRCAP_Reset (HRCAP_SFRmap* HRCAPx);
 void HRCAP_CLK_Select(HRCAP_SFRmap* HRCAPx, uint32_t CLK);
 void HRCAP_Software_Reset_Enable(HRCAP_SFRmap* HRCAPx, FunctionalState NewState);
@@ -2630,9 +2630,9 @@ uint16_t HRCAP_Read_Fall_Decimal_Value(HRCAP_SFRmap* HRCAPx, uint32_t HRCAP_REG)
 FlagStatus HRCAP_Get_INT_Flag(HRCAP_SFRmap* HRCAPx, uint32_t Select);
 void HRCAP_Clear_INT_Flag(HRCAP_SFRmap* HRCAPx, uint32_t Select);
 void HRCAP_INT_Mandatory_Enable(HRCAP_SFRmap* HRCAPx, uint32_t Select, FunctionalState NewState);
-# 36 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_i2c.h" 1
-# 22 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_i2c.h"
+# 36 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_i2c.h" 1
+# 22 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_i2c.h"
 typedef struct
 {
     uint32_t m_Mode;
@@ -2652,7 +2652,7 @@ typedef struct
     uint32_t m_AckData;
 
 }I2C_InitTypeDef;
-# 206 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_i2c.h"
+# 206 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_i2c.h"
 void I2C_Reset (I2C_SFRmap* I2Cx);
 void I2C_Configuration (I2C_SFRmap* I2Cx,I2C_InitTypeDef* i2cInitStruct);
 void I2C_Struct_Init (I2C_InitTypeDef* I2C_InitStruct);
@@ -2719,9 +2719,9 @@ FlagStatus I2C_Get_Receive_DMA_Flag (I2C_SFRmap* I2Cx);
 FlagStatus I2C_Get_Transmit_DMA_Flag (I2C_SFRmap* I2Cx);
 FlagStatus I2C_Get_Bus_Error_Flag (I2C_SFRmap* I2Cx);
 void I2C_SendData8 (I2C_SFRmap* I2Cx, uint8_t Data);
-# 37 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_int.h" 1
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_int.h"
+# 37 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_int.h" 1
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_int.h"
 typedef struct
 {
     uint32_t m_Line;
@@ -2735,7 +2735,7 @@ typedef struct
     uint32_t m_Source;
 
 } EINT_InitTypeDef;
-# 126 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_int.h"
+# 126 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_int.h"
 uint8_t INT_Get_Interrupt_Action (void);
 uint8_t INT_Get_Priority_Pending_Action (void);
 void INT_Priority_Base (uint8_t PriBase);
@@ -2762,17 +2762,17 @@ void INT_External_Fall_Enable (uint32_t EintMask, FunctionalState NewState);
 FlagStatus INT_Get_External_Flag (uint32_t EintNum);
 void INT_External_Clear_Flag (uint32_t EintNum);
 void INT_External_Source_Enable (uint32_t EintNum, uint32_t PeripheralSource);
-# 38 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_iwdt.h" 1
-# 55 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_iwdt.h"
+# 38 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_iwdt.h" 1
+# 55 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_iwdt.h"
 void IWDT_Prescaler_Config (uint32_t Prescaler);
 void IWDT_SCK_Source_Select(uint32_t Source);
 void IWDT_Overflow_Config (uint32_t Overflow);
 void IWDT_Enable (uint32_t NewState);
 void IWDT_Feed_The_Dog (void);
-# 39 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_op.h" 1
-# 58 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_op.h"
+# 39 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_op.h" 1
+# 58 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_op.h"
 void OP_Reset(void);
 void OP_Enable(uint32_t OPx_NUM, FunctionalState NewState);
 void OP_OUTPUT_Enable(uint32_t OPx_NUM, FunctionalState NewState);
@@ -2791,9 +2791,9 @@ void OP_TRIM_PMOS_Value_Config(uint32_t OPx_NUM, uint8_t Value);
 void OP_TRIM_PMOS_Direction_Select(uint32_t OPx_NUM, uint32_t Direction);
 void OP_TRIM_NMOS_Value_Config(uint32_t OPx_NUM, uint8_t Value);
 void OP_TRIM_NMOS_Direction_Select(uint32_t OPx_NUM, uint32_t Direction);
-# 40 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_osc.h" 1
-# 18 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_osc.h"
+# 40 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_osc.h" 1
+# 18 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_osc.h"
 typedef struct
 {
     uint32_t m_InputSource;
@@ -2808,7 +2808,7 @@ typedef struct
     uint32_t m_StartDelay;
 
 } OSC_InitTypeDef;
-# 246 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_osc.h"
+# 246 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_osc.h"
 void OSC_SCLK_Configuration (OSC_InitTypeDef* oscInitStruct);
 void OSC_HFCK_Configuration (OSC_InitTypeDef* oscInitStruct);
 void OSC_LFCK_Configuration (OSC_InitTypeDef* oscInitStruct);
@@ -2861,9 +2861,9 @@ FlagStatus OSC_Get_EXTHF_INT_Flag (void);
 FlagStatus OSC_Get_EXTLF_INT_Flag (void);
 FlagStatus OSC_Get_INTHF_INT_Flag (void);
 FlagStatus OSC_Get_INTLF_INT_Flag (void);
-# 41 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pclk.h" 1
-# 40 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pclk.h"
+# 41 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pclk.h" 1
+# 40 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pclk.h"
 void PCLK_CTL0_Peripheral_Clock_Enable (uint32_t PCLK_CTL0_bit,
                     FunctionalState NewState);
 void PCLK_CTL1_Peripheral_Clock_Enable (uint32_t PCLK_CTL1_bit,
@@ -2872,9 +2872,9 @@ void PCLK_CTL2_Peripheral_Clock_Enable (uint32_t PCLK_CTL2_bit,
                     FunctionalState NewState);
 void PCLK_CTL3_Peripheral_Clock_Enable (uint32_t PCLK_CTL3_bit,
                     FunctionalState NewState);
-# 42 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pm.h" 1
-# 464 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pm.h"
+# 42 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pm.h" 1
+# 464 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_pm.h"
 void PM_IO_Latch_Enable (FunctionalState NewState);
 FlagStatus PM_Get_IO_Latch_Status (void);
 void PM_Internal_Low_Frequency_Enable (FunctionalState NewState);
@@ -2976,9 +2976,9 @@ void PM_Main_Regulator_Bandgap_Config (uint32_t ModeSel);
 void PM_LPR_Module_Config (uint32_t ModeSel);
 void PM_VREF_SELECT (uint32_t Voltage);
 void PM_VREF_Software_Enable (FunctionalState NewState);
-# 43 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_qei.h" 1
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_qei.h"
+# 43 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_qei.h" 1
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_qei.h"
 typedef struct
 {
     FunctionalState m_IndexReset;
@@ -3017,7 +3017,7 @@ typedef struct
     uint32_t m_ClockSource;
 
 }QEI_TimerTypeDef;
-# 145 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_qei.h"
+# 145 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_qei.h"
 void QEI_Reset (QEI_SFRmap* QEIx);
 void QEI_Configuration(QEI_SFRmap* QEIx, QEI_InitTypeDef* qeiInitStruct);
 void QEI_Timer_Configuration(QEI_SFRmap* QEIx,
@@ -3061,9 +3061,9 @@ void QEI_Timer_Overflow_INT_Enable (QEI_SFRmap* QEIx,
                     FunctionalState NewState);
 void QEI_Phase_Error_INT_Enable (QEI_SFRmap* QEIx, FunctionalState NewState);
 void QEI_Counter_Error_INT_Enable (QEI_SFRmap* QEIx, FunctionalState NewState);
-# 44 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rng.h" 1
-# 69 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rng.h"
+# 44 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rng.h" 1
+# 69 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rng.h"
 void RNG_Reset(void);
 void RNG_Real_RNG_Mode_Enable(FunctionalState NewState);
 void RNG_Real_RNG_Seed_Correct_Enable(FunctionalState NewState);
@@ -3081,9 +3081,9 @@ void RNG_Clear_INT_Flag(uint32_t Select);
 FlagStatus RNG_Get_INT_Flag(uint32_t Select);
 uint16_t RNG_Seed_Value(void);
 uint32_t RNG_Data_Value(void);
-# 45 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rst.h" 1
-# 40 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rst.h"
+# 45 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rst.h" 1
+# 40 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rst.h"
 void RST_CTL0_Peripheral_Reset_Enable(uint32_t RST_CTL0Periph,
                     FunctionalState NewState);
 void RST_CTL1_Peripheral_Reset_Enable(uint32_t RST_CTL1Periph,
@@ -3092,9 +3092,9 @@ void RST_CTL2_Peripheral_Reset_Enable(uint32_t RST_CTL2Periph,
                     FunctionalState NewState);
 void RST_CTL3_Peripheral_Reset_Enable(uint32_t RST_CTL3Periph,
                     FunctionalState NewState);
-# 46 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rtc.h" 1
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rtc.h"
+# 46 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rtc.h" 1
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rtc.h"
 typedef struct
 {
     uint8_t m_Hours;
@@ -3159,7 +3159,7 @@ typedef struct
     uint32_t m_SecondsEnable;
 
 }RTC_AlarmTypeDef;
-# 290 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rtc.h"
+# 290 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_rtc.h"
 void RTC_Reset (void);
 void RTC_Configuration (uint32_t TimeFormat,
                     RTC_InitTypeDef * rtcInitStruct);
@@ -3270,9 +3270,9 @@ void RTC_Clear_Days_INT_Flag (void);
 void RTC_Clear_Hours_INT_Flag (void);
 void RTC_Clear_Minutes_INT_Flag (void);
 void RTC_Clear_Seconds_INT_Flag (void);
-# 47 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_spi.h" 1
-# 24 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_spi.h"
+# 47 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_spi.h" 1
+# 24 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_spi.h"
 typedef struct
 {
     uint32_t m_Mode;
@@ -3309,7 +3309,7 @@ typedef struct
     uint8_t m_Prescaler;
 
 }I2S_InitTypeDef;
-# 211 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_spi.h"
+# 211 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_spi.h"
 void SPI_Reset(SPI_SFRmap* SPIx);
 void SPI_Configuration(SPI_SFRmap* SPIx, SPI_InitTypeDef* spiInitStruct);
 void I2S_Configuration(SPI_SFRmap* SPIx, I2S_InitTypeDef* i2sInitStruct);
@@ -3355,9 +3355,9 @@ FlagStatus SPI_Get_Receive_Buf_Flag (SPI_SFRmap* SPIx);
 FlagStatus SPI_Get_Transmit_Buf_Flag (SPI_SFRmap* SPIx);
 void SPI_Clear_Receive_Overflow_INT_Flag (SPI_SFRmap* SPIx);
 void SPI_Clear_Transmit_Overflow_INT_Flag (SPI_SFRmap* SPIx);
-# 48 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_sysctl.h" 1
-# 77 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_sysctl.h"
+# 48 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_sysctl.h" 1
+# 77 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_sysctl.h"
 FlagStatus SYSCTL_Get_V_Flag (void);
 FlagStatus SYSCTL_Get_C_Flag (void);
 FlagStatus SYSCTL_Get_Z_Flag (void);
@@ -3386,9 +3386,9 @@ void SYSCTL_MSPSPAH_Threshold_Config (uint16_t Mspspah);
 void SYSCTL_MSPSPAL_Threshold_Config (uint16_t Mspspal);
 void SYSCTL_PSPSPAH_Threshold_Config (uint16_t Pspspah);
 void SYSCTL_PSPSPAL_Threshold_Config (uint16_t Pspspal);
-# 49 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_systick.h" 1
-# 19 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_systick.h"
+# 49 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_systick.h" 1
+# 19 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_systick.h"
 typedef struct
 {
     uint32_t m_Period;
@@ -3397,7 +3397,7 @@ typedef struct
     uint32_t m_SysTickINT;
 
 } SYSTICK_InitTypeDef;
-# 43 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_systick.h"
+# 43 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_systick.h"
 void SYSTICK_Configuration (uint32_t Clock, uint32_t SysTickINT,
                     uint32_t Reload);
 
@@ -3410,9 +3410,9 @@ void SYSTICK_Reload_Config (uint32_t Reload);
 void SYSTICK_Counter_Updata (void);
 uint32_t SYSTICK_Get_Reload (void);
 uint32_t SYSTICK_Get_Counter (void);
-# 50 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h" 1
-# 23 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h"
+# 50 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h" 1
+# 23 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h"
 typedef struct
 {
     uint32_t m_Mode;
@@ -3453,7 +3453,7 @@ typedef struct
     uint8_t m_Egt;
 
 } U7816R_InitTypeDef;
-# 301 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h"
+# 301 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h"
 void USART_Reset (USART_SFRmap* USARTx);
 void USART_Configuration (USART_SFRmap* USARTx,
                     USART_InitTypeDef* usartInitStruct);
@@ -3572,9 +3572,9 @@ void USART_Clear_Transmit_BUFR_INT_Flag (USART_SFRmap* USARTx);
 FlagStatus USART_Get_WUEN_Flag (USART_SFRmap* USARTx);
 FlagStatus USART_Get_Auto_BaudRate_Detection_Flag(USART_SFRmap* USARTx);
 void USART_RESHD_Enable (USART_SFRmap* USARTx, FunctionalState NewState);
-# 51 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_wwdt.h" 1
-# 71 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_wwdt.h"
+# 51 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_wwdt.h" 1
+# 71 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_wwdt.h"
 void WWDT_Reset (void);
 void WWDT_Threshold_Config (uint32_t Threshold);
 void WWDT_Prescaler_Config (uint32_t Prescaler);
@@ -3586,33 +3586,34 @@ uint32_t WWDT_Get_Counter (void);
 void WWDT_INT_Enable (uint32_t NewState);
 FlagStatus WWDT_Get_INT_Flag (void);
 void WWDT_Clear_INT_Flag (void);
-# 52 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
-# 12 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h" 1
-# 13 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_epwm.h" 1
-# 14 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h" 1
-# 15 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flexmux.h" 1
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
-# 1 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdio.h" 1
-# 10 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdio.h"
-# 1 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdarg.h" 1
-# 9 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdarg.h"
+# 52 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_include.h" 2
+# 12 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_atim.h" 1
+# 13 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_epwm.h" 1
+# 14 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_gpio.h" 1
+# 15 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_flexmux.h" 1
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
+# 1 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdio.h" 1
+# 10 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdio.h"
+# 1 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdarg.h" 1
+# 18 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdarg.h"
 typedef unsigned char * va_list;
-# 11 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdio.h" 2
-# 25 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdio.h"
+# 11 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdio.h" 2
+# 25 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdio.h"
 typedef void *STREAM;
-# 55 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdio.h"
+# 67 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdio.h"
 extern char getchar (void);
 extern char fgetchar (STREAM *stream);
 
 extern int putchar (int c);
 extern int fputchar (int c,STREAM *stream);
-
+# 138 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdio.h"
 extern int puts (const char *);
 extern int fputs(const char *str,STREAM *stream);
+extern int fwrite(const char *str,unsigned int Size,unsigned int N, STREAM *stream);
 
 
 
@@ -3642,7 +3643,9 @@ extern int vsscanf(const char * str,const char * fmt, va_list ap);
 extern int printf (const char *fmt, ...);
 
 extern int fprintf (STREAM *stream, const char *fmt, ...);
+
 extern int sprintf (char *str, const char *fmt, ...);
+extern int snprintf (char *str, unsigned int n, const char *format, ...);
 
 
 
@@ -3650,14 +3653,11 @@ extern int sprintf (char *str, const char *fmt, ...);
 extern int vprintf (const char *fmt, va_list ap);
 extern int vfprintf (STREAM *stream, const char *fmt, va_list ap);
 extern int vsprintf (char *str, const char *fmt, va_list ap);
-
-
-
-
-
+extern int vsnprintf (char *s, unsigned int n, const char *format, va_list ap);
+# 204 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdio.h"
 extern void printf_small (const char *fmt, ...);
 extern void printf_tiny (const char *fmt, ...);
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/system_init.h" 2
 
 
 void cfg_CLK(void);
@@ -3668,21 +3668,21 @@ void Delay_us_ST(uint32_t delay_temp);
 void HFCK_Config(void);
 void LFCK_Config(void);
 # 4 "../main.c" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 1
-# 11 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h"
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_gpio.h" 1
-# 27 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_gpio.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 1
+# 11 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_gpio.h" 1
+# 27 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_gpio.h"
 void cfg_GPIO(void);
-# 12 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_pwm.h" 1
+# 12 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_pwm.h" 1
 
 
 
 
 
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h" 1
-# 7 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_pwm.h" 2
-# 15 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_pwm.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32A9K1XXX.h" 1
+# 7 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_pwm.h" 2
+# 15 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_pwm.h"
 extern void cfg_PWM(void);
 extern void pwm_enable(void);
 extern void pwm_disable(void);
@@ -3691,9 +3691,9 @@ extern void epwm_module_enable(void);
 extern void low_side_pwm_enable(void);
 extern void low_side_pwm_duty(uint16_t duty);
 extern void high_side_pwm_enable(void);
-# 13 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_timer.h" 1
-# 22 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_timer.h"
+# 13 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_timer.h" 1
+# 22 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_timer.h"
 typedef struct{
   uint16_t time_1ms_count;
   uint16_t time_10ms_count;
@@ -3705,12 +3705,12 @@ typedef struct{
 void cfg_BASIC_TIMER(void);
 
 extern volatile TIME_COUNT_TYPE time_count;
-# 14 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h" 1
-# 11 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h"
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_Include.h" 1
-# 12 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h" 2
-# 30 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h"
+# 14 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h" 1
+# 11 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/KF32_Include.h" 1
+# 12 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h" 2
+# 30 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_adc.h"
 typedef struct{
   int32_t Ia_offset;
   int32_t Ib_offset;
@@ -3734,18 +3734,18 @@ void cfg_ADC(void);
 void adc_result_calc(void);
 void adc_offset_calc(void);
 extern volatile ADC_DATA_TYPE adc_data;
-# 15 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_qei.h" 1
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_usart.h" 1
-# 11 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_usart.h"
+# 15 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_qei.h" 1
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_usart.h" 1
+# 11 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_usart.h"
 void cfg_USART(void);
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_dma.h" 1
-# 11 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_dma.h"
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_dma.h" 1
+# 11 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_dma.h"
 void cfg_DMA(void);
-# 18 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_flex.h" 1
+# 18 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/driver_flex.h" 1
 
 
 
@@ -3754,15 +3754,15 @@ void cfg_DMA(void);
 
 
 extern void cfg_FLEXMUX(void);
-# 19 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/user.h" 1
+# 19 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/user.h" 1
 
 
 
 
 
-# 1 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/string.h" 1
-# 24 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/string.h"
+# 1 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/string.h" 1
+# 24 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/string.h"
 extern int ffs (int);
 extern int ffsl (long);
 extern int ffsll (long long);
@@ -3793,7 +3793,7 @@ extern size_t strxfrm(char *, const char *, size_t);
 
 
 extern char * strdup(const char *);
-# 7 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/user.h" 2
+# 7 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/user.h" 2
 
 
 
@@ -3801,11 +3801,11 @@ typedef unsigned short WORD;
 typedef signed short SFRAC16;
 typedef unsigned char BYTE;
 typedef unsigned char bool;
-# 20 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h" 1
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h"
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/user.h" 1
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h" 2
+# 20 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h" 1
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/user.h" 1
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h" 2
 
 
 
@@ -3893,7 +3893,7 @@ volatile typedef struct {
  int16_t T2;
  int16_t T3;
 } tSVGenParm;
-# 171 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h"
+# 171 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h"
 extern volatile SMC smc1;
 extern volatile tSVGenParm SVGenParm;
 extern volatile tPIParm PIParmD;
@@ -3929,18 +3929,18 @@ extern WORD Q15SQRT(signed short a);
 extern WORD Q15abs(SFRAC16 a);
 extern SFRAC16 FracMpy(SFRAC16 mul_1, SFRAC16 mul_2);
 extern SFRAC16 FracDiv(SFRAC16 num_1, SFRAC16 den_1);
-# 21 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
+# 21 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\driver/hardware_init.h" 2
 
 
 
 void cfg_HARDWARE(void);
 # 5 "../main.c" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 1
-# 12 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h"
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h" 1
-# 13 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h"
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/state_machine.h" 1
-# 11 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/state_machine.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 1
+# 12 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h" 1
+# 13 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/state_machine.h" 1
+# 11 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/state_machine.h"
 typedef enum{
  STATE_IDLE = 0,
  STATE_PARAM_SET,
@@ -3956,9 +3956,9 @@ typedef enum{
 
 
 void state_machine(void);
-# 14 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/speed.h" 1
-# 13 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/speed.h"
+# 14 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/speed.h" 1
+# 13 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/speed.h"
 typedef enum{
  SPEED_STATE_INIT = 0,
  SPEED_STATE_RUN,
@@ -3988,7 +3988,7 @@ extern void speed_state_machine(void);
 extern void run_speed_process(void);
 
 extern SPEED_DATA_TYPE speed_data;
-# 15 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h" 2
+# 15 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/control.h" 2
 
 typedef struct{
   uint8_t sys_enable_flag;
@@ -4030,16 +4030,16 @@ void motor_control_isr(void);
 
 extern volatile SYS_CONTROL_TYPE sys_control;
 extern volatile CONTROL_PARAM_TYPE control_param;
-# 13 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h" 1
-# 14 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
+# 13 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/param.h" 1
+# 14 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
 
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/task.h" 1
-# 12 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/task.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/task.h" 1
+# 12 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/task.h"
 void task_process(void);
-# 16 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/alarm.h" 1
-# 21 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/alarm.h"
+# 16 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/alarm.h" 1
+# 21 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/alarm.h"
 typedef union{
  uint16_t error_code;
  struct{
@@ -4092,25 +4092,25 @@ void phase_lost_check(void);
 
 extern volatile ERROR_STATE_TYPE error_state;
 extern volatile ERROR_PARAM_TYPE error_param;
-# 17 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
+# 17 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
 
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/smc.h" 1
-# 12 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/smc.h"
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/smc.h" 1
+# 12 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/smc.h"
 void SMCInit(SMC *s);
 void smc_param_init(void);
-# 19 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/commu.h" 1
+# 19 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/commu.h" 1
 
 
 
 
 
-# 1 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h" 1
-# 7 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/commu.h" 2
-# 1 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/SeriesDIServer.h" 1
-# 10 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/SeriesDIServer.h"
-# 1 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/stdint.h" 1
-# 11 "C:/Program Files (x86)/ChipON IDE/KungFu32/ChiponCC32/include/Sys/SeriesDIServer.h" 2
+# 1 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\inc/kf32a9k1xxx_usart.h" 1
+# 7 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/commu.h" 2
+# 1 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/SeriesDIServer.h" 1
+# 10 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/SeriesDIServer.h"
+# 1 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/stdint.h" 1
+# 11 "D:/Program Files (x86)/ChipON IDE/KungFu32/ChipONCC32/include/Sys/SeriesDIServer.h" 2
 
 
 void X2CScope_Initialise();
@@ -4118,7 +4118,7 @@ void X2CScope_Communicate();
 void X2CScope_Update();
 void X2CScope_HookUARTFunctions(void (*sendSerialFcnPntr)(uint8_t), uint8_t (*receiveSerialFcnPntr)(),
               uint8_t (*isReceiveDataAvailableFcnPntr)(), uint8_t (*isSendReadyFcnPntr)());
-# 8 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/commu.h" 2
+# 8 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/commu.h" 2
 
 
 
@@ -4127,7 +4127,7 @@ void X2CScope_HookUARTFunctions(void (*sendSerialFcnPntr)(uint8_t), uint8_t (*re
 void commu_init(void);
 void commu_task(void);
 void commu_update(void);
-# 20 "C:\\kf32_workspace_copy\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
+# 20 "E:\\qiantianyi\\testRepository\\KF32A156_DEMO_PMSM_FOC_V1_1\\application/application_init.h" 2
 
 
 
@@ -4137,6 +4137,8 @@ void application_init(void);
 
 int32_t adc_current_scale = 0;
 int32_t adc_voltage_scale = 0;
+
+
 
 
 void main()

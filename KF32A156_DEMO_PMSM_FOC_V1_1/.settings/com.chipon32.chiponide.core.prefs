@@ -1,0 +1,19 @@
+#Fri Jan 21 15:10:42 CST 2022
+eclipse.preferences.version=1
+kf32target/ChipPower=3
+kf32target/IspMode=78563412
+kf32target/Protect=5A5AA5A5
+kf32target/chipName=KF32A156MQV
+kf32target/compilerType=ccr1_issue
+kf32target/debugMode=0
+kf32target/debugRunadd=0
+kf32target/debugSpeed=60
+kf32target/dflashuse=54112
+kf32target/dramuse=17820
+kf32target/maintimeout=5
+kf32target/parsefilesizeandstack=0
+kf32target/rflashuse=44016
+kf32target/rramuse=16732
+kf32target/stepintimeout=5
+kf32target/stepouttimeout=5
+kf32target/steppasstimeout=5
